@@ -14,7 +14,7 @@ class definecode(cmd.Cmd):
         exit or q    退出程序
         '''
     def help_exit(self):
-        print "推出程序"
+        print "退出程序"
     def do_exit(self,line):
         sys.exit()
 
