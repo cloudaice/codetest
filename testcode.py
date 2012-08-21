@@ -11,7 +11,7 @@ class definecode(cmd.Cmd):
         self.prompt='(testcode)>'
         self.intro='''
         website 输入网址  输入要检测编码方式的网站的网址
-        exit or q    推出程序
+        exit or q    退出程序
         '''
     def help_exit(self):
         print "推出程序"
